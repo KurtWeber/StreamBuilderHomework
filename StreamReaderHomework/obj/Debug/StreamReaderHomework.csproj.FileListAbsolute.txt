@@ -4,3 +4,9 @@ c:\users\wecancodeit\documents\visual studio 2015\Projects\StreamReaderHomework\
 c:\users\wecancodeit\documents\visual studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\bin\Debug\StreamReaderHomework.pdb
 c:\users\wecancodeit\documents\visual studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\obj\Debug\StreamReaderHomework.exe
 c:\users\wecancodeit\documents\visual studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\obj\Debug\StreamReaderHomework.pdb
+C:\Users\Owner\Documents\Visual Studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\bin\Debug\StreamReaderHomework.exe.config
+C:\Users\Owner\Documents\Visual Studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\obj\Debug\StreamReaderHomework.exe
+C:\Users\Owner\Documents\Visual Studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\obj\Debug\StreamReaderHomework.pdb
+C:\Users\Owner\Documents\Visual Studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\bin\Debug\StreamReaderHomework.exe
+C:\Users\Owner\Documents\Visual Studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\bin\Debug\StreamReaderHomework.pdb
+C:\Users\Owner\Documents\Visual Studio 2015\Projects\StreamReaderHomework\StreamReaderHomework\obj\Debug\StreamReaderHomework.csprojResolveAssemblyReference.cache
