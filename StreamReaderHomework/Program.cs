@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Text.RegularExpressions;
+
 
 namespace StreamReaderHomework
 {
@@ -49,7 +51,7 @@ namespace StreamReaderHomework
                         break;
                 }
                 Console.WriteLine("Press any key to continue");
-                Console.ReadKey();
+                //Console.ReadKey();
                 Console.Clear();
 
             } while (menuOption != 4);
@@ -91,7 +93,31 @@ namespace StreamReaderHomework
         static void UppercaseVowels()
         {
             // Convert all vowels to uppercase
-            Console.WriteLine("******************** Under Construction *******************");
+            StreamReader reader = new StreamReader("..\\..\\..\\Shakespeare.txt");
+            using (reader)
+            {
+
+                // Count to determine number of lines 
+                int lineNumber = 0;
+                // Read first line from the text file 
+                string line = reader.ReadLine();
+                // Read the other lines from the text file 
+                while (line != null)
+                {
+                    // Increment by 1 (linenumber = linenumber + 1) 
+                    lineNumber++;
+
+                    //Convert line
+                    string replaceVowels = line.Replace("a", "A").Replace("e", "E").Replace("i", "I").Replace("o", "O").Replace("u", "U");
+
+                    // Write line to console 
+                    Console.WriteLine(replaceVowels);
+                    // Read next line 
+                    line = reader.ReadLine();
+                    
+                }
+            }
+
         }
-    }
+   }
 }
