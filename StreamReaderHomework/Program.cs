@@ -51,7 +51,7 @@ namespace StreamReaderHomework
                         break;
                 }
                 Console.WriteLine("Press any key to continue");
-                //Console.ReadKey();
+                Console.ReadKey();
                 Console.Clear();
 
             } while (menuOption != 4);
